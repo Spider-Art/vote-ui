@@ -41,13 +41,13 @@
         $(".a").prop('disabled', true);
         $(".a").html('{{option_a}} <i class="fa fa-check-circle"></i>');
         $(".b").css('opacity','0.5');
-        $("#result").html("Voted for {{option_a}}")
+        $("#result").html("You chose {{option_a}}")
       }
       if(vote == "b"){
         $(".b").prop('disabled', true);
         $(".b").html('{{option_b}} <i class="fa fa-check-circle"></i>');
         $(".a").css('opacity','0.5');
-        $("#result").html("Voted for {{option_b}}")
+        $("#result").html("You chose {{option_b}}")
       }
     </script>
     {% endif %}
