@@ -8,7 +8,8 @@ import json
 import requests
 
 option_a = os.getenv('OPTION_A', u"Cat 🐺")
-option_b = os.getenv('OPTION_B', u"Dog 🐶")
+option_b = os.getenv('OPTION_B', u"Dog 🐶🐺")
+option_c = os.getenv('OPTION_C', u"\U0001F375")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
