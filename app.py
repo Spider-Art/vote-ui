@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# ☕️🍵🥛🥚🐔🌭🍔🍕
 from flask import Flask, render_template, request, make_response, g, send_from_directory
 import os
 import socket
@@ -8,7 +9,7 @@ import json
 import requests
 
 option_a = os.getenv('OPTION_A', u"Tea 🍵")
-option_b = os.getenv('OPTION_B', u"Milk 🥛")
+option_b = os.getenv('OPTION_B', u"Milk ☕️☕️☕️")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
